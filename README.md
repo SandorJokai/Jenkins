@@ -29,9 +29,7 @@ and go to the browser...
 <h3>Get to know Jenkins</h3>
 
 My learning method - just like in case of everything else - reading the official materials, always the officials. Because official sites are up-to-date.
-Here is the official site of Jenkins:
-
-<a href="https://www.jenkins.io/doc" target="_blank">official site of Jenkins</a>
+Here is the <a href="https://www.jenkins.io/doc" target="_blank">official site of Jenkins</a>
 
 After learning a bit let's get hands dirty...
 
