@@ -19,10 +19,22 @@ I still have to know so many concepts and technics, but the way how we can use i
 <h2>Prerequisites</h2>
 
 - docker engine must be installed
-- build an image
+- build an image from Dockerfile
 - launch a container: 
 
 ![Image of mysql](https://github.com/SandorJokai/Jenkins/blob/master/jenkins.png)
 
 and go to the browser...
+
+<h3>Get to know Jenkins</h3>
+
+My learning method - just like in case of everything else - reading the official materials, always the officials. Because official sites are up-to-date.
+Here is the official site of Jenkins:
+https://www.jenkins.io/doc
+
+After learning a bit let's get hands dirty...
+
+<h2>My first pipeline</h2>
+
+In my first project with jenkins (pipeline) there are stages where a web server will be installed running on apache
 
