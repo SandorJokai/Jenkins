@@ -30,6 +30,7 @@ and go to the browser...
 
 My learning method - just like in case of everything else - reading the official materials, always the officials. Because official sites are up-to-date.
 Here is the official site of Jenkins:
+
 https://www.jenkins.io/doc
 
 After learning a bit let's get hands dirty...
