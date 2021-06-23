@@ -17,6 +17,7 @@ So far so good. This is day first and here we are, I'm publicing proudly my firs
 I still have to know so many concepts and technics, but the way how we can use is just marvelous.
 
 <h2>Prerequisites</h2>
+
 - docker engine must be installed
 - build an image
 
