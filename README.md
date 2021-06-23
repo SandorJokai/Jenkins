@@ -1,6 +1,6 @@
 ![npm package](https://img.shields.io/badge/docker-19.03.8-blue.svg)
 ![npm package](https://img.shields.io/badge/jenkins-2.299-red.svg)
-![npm package](https://img.shields.io/badge/nginx-1.8.3.1-prange.svg)
+![npm package](https://img.shields.io/badge/github-1.8.3.1-orange.svg)
 
 <h1>What is Jenkins?</h1>
 
