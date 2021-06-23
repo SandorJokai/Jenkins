@@ -31,7 +31,7 @@ and go to the browser...
 My learning method - just like in case of everything else - reading the official materials, always the officials. Because official sites are up-to-date.
 Here is the official site of Jenkins:
 
-<a href="https://www.w3schools.com" target="_blank">https://www.jenkins.io/doc</a>
+<a href="https://www.jenkins.io/doc" target="_blank">official site of Jenkins</a>
 
 After learning a bit let's get hands dirty...
 
