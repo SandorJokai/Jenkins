@@ -1,0 +1,13 @@
+node {
+    stage ('scm checkout'){
+        git credentialsId: 'git-credentials', url: 'https://github.com/SandorJokai/docker'
+    }
+    stage ('install apache') {
+        sh 'apt install apache2 -y --no-install-recommends'
+    }
+    
+    stage ('launch the apache as webserver') {
+        sh 'service apache2 start'
+    }
+}
+
