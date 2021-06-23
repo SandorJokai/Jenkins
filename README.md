@@ -14,7 +14,7 @@ Runtime Environment (JRE) installed.
 
 As I've been studying about the concept of DevOps with some tools since last summer, I thought I must be familiar with Jenkins as well. 
 So far so good. This is day first and here we are, I'm proudly publishing my first pipeline. :-)
-I still have to know so many concepts and technics, but the way how we can use is just marvelous.
+I still have to know so many concepts and technics, but the way how easily we can use it, just marvelous.
 
 <h2>Prerequisites</h2>
 
