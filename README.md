@@ -20,8 +20,9 @@ I still have to know so many concepts and technics, but the way how we can use i
 
 - docker engine must be installed
 - build an image
+- launch a container: 
 
 ![Image of mysql](https://github.com/SandorJokai/Jenkins/blob/master/jenkins.png)
 
-launch a container and go to the browser...
+and go to the browser...
 
