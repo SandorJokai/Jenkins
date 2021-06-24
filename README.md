@@ -29,7 +29,8 @@ and go to the browser...
 <h3>Get to know Jenkins</h3>
 
 In order to understand this project, it's recommended to read the very basics at least on the 
-<a href="https://www.jenkins.io/doc" target="_blank">Jenkins's official site:</a>
+<a href="https://www.jenkins.io/doc" target="_blank">Jenkins's official site</a>
+
 After learning a bit about Jenkins, let's get hands dirty...
 
 <h2>My first pipeline</h2>
@@ -42,4 +43,5 @@ There are two ways to creat pipelines(set of automated processes):
 The newest version from these two methods is the declarative with more functionals. 
 In my first project [Jenkinsfile-declarative](../master/Jenkinsfile-declarative) a web server will be installed running on apache in
 the docker container.
+
 
