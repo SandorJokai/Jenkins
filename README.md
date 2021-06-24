@@ -28,12 +28,19 @@ and go to the browser...
 
 <h3>Get to know Jenkins</h3>
 
-My learning method - just like in case of everything else - reading the official materials, always the officials. Because official sites are up-to-date.
-<p>Here is the <a href="https://www.jenkins.io/doc" target="_blank" rel="noopener noreferrer">official site of Jenkins</a>.</p>
+In order to understand this project, it's recommended to read the very basics at least on the 
+<p>Jenkins's official site: <a href="https://www.jenkins.io/doc" target="_blank" rel="noopener noreferrer"></a>.</p>
 
-After learning a bit let's get hands dirty...
+After learning a bit about Jenkins, let's get hands dirty...
 
 <h2>My first pipeline</h2>
 
-In my first project with jenkins (pipeline) there are stages where a web server will be installed running on apache
+There are two ways to creat pipelines(set of automated processes):
+
+- scripted
+- declarative
+
+The newest version from these two methods is the declarative with more functionals. 
+In my first project [Jenkinsfile-declarative](../blob/master/Jenkinsfile-declarative) a web server will be installed running on apache in
+the docker container.
 
