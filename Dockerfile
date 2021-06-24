@@ -10,7 +10,7 @@ RUN apt update && apt install -y --no-install-recommends supervisor && mkdir -p 
 
 COPY supervisord.conf /etc/supervisor/conf.d 
 
-COPY .jenkins-secret /etc/secrets
+#COPY .jenkins-secret /etc/secrets
 
 ENV JENKINS_OPTS=--prefix=/jenkins
 
@@ -18,5 +18,5 @@ ENV SECRETS_DIR=/etc/secrets
 
 EXPOSE 8080, 80
 
-VOLUME /var/lib/docker/volumes/jenkins
+VOLUME ["/var/lib/docker/volumes/jenkins"]
 
