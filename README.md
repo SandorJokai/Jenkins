@@ -44,7 +44,8 @@ The newest version from these two methods is the declarative with more functiona
 In my first project ([Jenkinsfile-declarative](../master/Jenkinsfile-declarative)) a web server will be installed running on apache in
 the docker container.
 
-Once we logged in Jenkins, create a 'new item' on top of left side panel, name it, choose pipeline and click OK.
+After doing some setting up (install plugins etc.) and once we logged in Jenkins, create a 'new item' on top of left side panel, name it,
+choose pipeline and click OK.
 After that, click on pipeline on the top, leave everything as default and choose pipeline script from SCM. Choose git, copy and paste the 
 github repo address [from here](https://github.com/SandorJokai/Jenkins) (no need to worry about the credentials as I've made this repo public to the world),
 modify the script Path to 'Jenkinsfile-declarative' and click OK. Save it and that's it pretty much. 
