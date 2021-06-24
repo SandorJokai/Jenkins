@@ -29,7 +29,7 @@ and go to the browser...
 <h3>Get to know Jenkins</h3>
 
 In order to understand this project, it's recommended to read the very basics at least on the 
-<p><a href="https://www.jenkins.io/doc" target="_blank" rel="noopener noreferrer">Jenkins's official site: </a>.</p>
+[Jenkins's official site:](https://www.jenkins.io/doc)
 
 After learning a bit about Jenkins, let's get hands dirty...
 
