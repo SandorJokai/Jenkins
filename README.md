@@ -58,3 +58,7 @@ In order to check the result, just start a new tab in browser and type: http://<
 <h1>This is my first Jenkins pipeline:</h1>
 
 ![Image of mysql](https://github.com/SandorJokai/Jenkins/blob/master/pipeline.png)
+
+![npm package](https://img.shields.io/badge/jenkins-2.299-red.svg)
+![npm package](https://img.shields.io/badge/docker-19.03.8-blue.svg)
+![npm package](https://img.shields.io/badge/github-1.8.3.1-orange.svg)
