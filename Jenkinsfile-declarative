@@ -3,7 +3,7 @@ pipeline {
     stages {
     stage ('scm checkout'){
         steps {
-        git credentialsId: 'git-credentials', url: 'https://github.com/SandorJokai/docker'
+        git credentialsId: 'git-credentials', url: 'https://github.com/SandorJokai/Jenkins'
         }
     }
     stage ('install apache'){
@@ -11,16 +11,14 @@ pipeline {
         sh 'apt install apache2 -y --no-install-recommends'
         }
     }
-    stage ('launch the apache as webserver') {
-        steps {
-        sh 'service apache2 start'
-        }
-    }
     stage ('create a new index.html') {
         steps {
             sh 'mv /var/www/html/index.html /var/www/html/index.html.ORIG'
-            sh 'echo "<h1>Welcome to our humble webpage making through Jenkins!</h1>" > /var/www/html/index.html'
-            sh 'service apache2 restart'
+            sh 'echo "<h1>Welcome to our humble webpage making through Jenkins!</h1>" > /var/www/html/index.html'        }
+    }
+    stage ('launch the apache webserver') {
+        steps {
+        sh 'service apache2 start'
         }
     }
     }
