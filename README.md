@@ -46,7 +46,6 @@ the docker container.
 
 Once we logged in Jenkins, create a 'new item' on top of left side panel, name it, choose pipeline and click OK.
 After that, click on pipeline on the top, leave everything as default and choose pipeline script from SCM. Choose git, copy and paste the 
-github repo address ([from here](https://github.com/SandorJokai/Jenkins)), modify the script Path to 'Jenkinsfile-declarative' and click OK.
-And that's it pretty much. 
+github repo address [from here](https://github.com/SandorJokai/Jenkins), modify the script Path to [Jenkinsfile-declarative](../master/Jenkinsfile-declarative) and click OK. And that's it pretty much. 
 
 Finally, just click on 'Build now' on left side panel again and notice, there is a process just launched. :)
