@@ -16,7 +16,7 @@ ENV JENKINS_OPTS=--prefix=/jenkins
 
 ENV SECRETS_DIR=/etc/secrets
 
-EXPOSE 8080
+EXPOSE 8080, 80
 
 VOLUME /var/lib/docker/volumes/jenkins
 
