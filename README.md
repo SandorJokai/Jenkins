@@ -19,7 +19,7 @@ I still have to know so many concepts and technics, but the way how easily we ca
 <h2>Prerequisites</h2>
 
 - docker engine must be installed
-- build an image from Dockerfile
+- build an image from [Dockerfile](../master/Dockerfile)
 - launch a container: 
 
 ![Image of mysql](https://github.com/SandorJokai/Jenkins/blob/master/jenkins.png)
