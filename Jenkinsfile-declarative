@@ -14,7 +14,7 @@ pipeline {
     stage ('create a new index.html') {
         steps {
             sh 'mv /var/www/html/index.html /var/www/html/index.html.ORIG'
-            sh 'echo "<h1>Welcome to our humble webpage making through Jenkins!</h1>" > /var/www/html/index.html        }
+            sh 'echo "<h1>Welcome to our humble webpage making through Jenkins!</h1>" > /var/www/html/index.html'        }
     }
     stage ('launch the apache webserver') {
         steps {
