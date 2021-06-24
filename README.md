@@ -55,6 +55,6 @@ Finally, just click on 'Build now' on left side panel again and notice, there is
 
 In order to check the result, just start a new tab in browser and type: http://<HOST_IP>
 
-<h1>This is our first Jenkins pipeline</h1>
+<h1>This is my first Jenkins pipeline:</h1>
 
 ![Image of mysql](https://github.com/SandorJokai/Jenkins/blob/master/pipeline.png)
