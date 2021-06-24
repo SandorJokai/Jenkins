@@ -52,3 +52,5 @@ github repo address [from here](https://github.com/SandorJokai/Jenkins) (no need
 modify the script Path to 'Jenkinsfile-declarative' and click OK. Save it and that's it pretty much. 
 
 Finally, just click on 'Build now' on left side panel again and notice, there is a process just launched. :)
+
+In order to check the result, just start a new tab in browser and type: http://<HOST_IP>
