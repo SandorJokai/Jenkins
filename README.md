@@ -41,7 +41,7 @@ There are two ways to creat pipelines(set of automated processes):
 - declarative
 
 The newest version from these two methods is the declarative with more functionals. 
-In my first project ([Jenkinsfile-declarative](../master/Jenkinsfile-declarative)) a web server will be installed running on apache in
+In my first project (![Jenkinsfile-declarative](../master/Jenkinsfile-declarative)) a web server will be installed running on apache in
 the docker container.
 
 
