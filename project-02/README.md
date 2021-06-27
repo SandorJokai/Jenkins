@@ -21,3 +21,7 @@ And every files will be downloaded from that repo.
 - build an image from [Dockerfile](../Dockerfile)
 - launch a Jenkins container
 
+<h2>Create pipeline</h2>
+
+In order to follow this project, it's very important that the Jenkins pipeline name's must be called (*docker-ampache*). 
+Once we created the pipeline, let's jump to bottom where we can select (*Pipeline script from SCM*). Select (*Git*) and paste the [Repository URL](https://github.com/SandorJokai/Jenkins/)
