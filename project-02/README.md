@@ -21,7 +21,7 @@ And every files will be downloaded from that repo.
 - docker engine must be installed
 - create a git clone of this repository
 - build an image from [Dockerfile](../Dockerfile)
-- launch a Jenkins container (*/usr/bin/docker && /var/run/docker.sock && /var/lib/docker/volumes/jenkins:/var/jenkins_home must be added as volumes*)
+- launch a Jenkins container (*/usr/bin/docker && /var/run/docker.sock && /var/jenkins_home must be added as volumes*)
 
 <h2>Create pipeline</h2>
 
