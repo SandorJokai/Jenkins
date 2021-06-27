@@ -32,7 +32,7 @@ Once we done that, it's also important that the *Script path* name's must be cal
 
 <h2>Post-settings</h2>
 
-Let's open a new tab in our fav browser, type: http://<HOST-IP> and follow these instructions:
+Let's open a new tab in our fav browser, type: http://<HOST_IP> and follow these instructions:
   - select a language and click on continue
   - type *ampache* in MySQL admin and password
   - take the tick out from *create a database* as we already have one in docker image
