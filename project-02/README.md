@@ -10,5 +10,5 @@ In this project we can build my favourite "online" music streamer, the Ampache f
 
 <h1>Prerequisities</h1>
 
-We only need to have is a [Jenkinsfile](https://github.com/SandorJokai/Jenkins/project-02/Jenkinsfile). No, seriously. But of course, there are some more requirements. However those "more" will be added through the Jenkinsfile.
-So, I have another [Github repository](https://github.com/SandorJokai/docker/ampache-streamer) where the Jenkinsfile will be working with. 
+We only need to have is a [Jenkinsfile](https://github.com/SandorJokai/Jenkins/tree/master/project-02/Jenkinsfile). No, seriously. But of course, there are some more requirements. However those "more" will be added through the Jenkinsfile.
+So, I have another [Github repository](https://github.com/SandorJokai/docker/tree/master/ampache-streamer) where the Jenkinsfile will be working with. 
