@@ -26,4 +26,12 @@ And every files will be downloaded from that repo.
 In order to follow this project, it's very important that the Jenkins pipeline name's must be called *docker-ampache*. 
 Once we created the pipeline, let's jump to the bottom where we can select *Pipeline script from SCM*. Select *Git* and paste the [Repository URL](https://github.com/SandorJokai/Jenkins/)
 
-Once we done that, it's also important that the *Script path* name's must be called [Jenkinsfile-02](https://github.com/SandorJokai/Jenkins/blob/master/Jenkinsfile-02). (*Github can not to be cloned from directories inside a repo, rather the entire repository (included all the sub directories*)
+Once we done that, it's also important that the *Script path* name's must be called [Jenkinsfile-02](https://github.com/SandorJokai/Jenkins/blob/master/Jenkinsfile-02). (*Github can not to be cloned from directories inside a repo, rather the entire repository (included all the sub directories) will be cloned.*
+
+<h2>Post-settings</h2>
+
+Let's open a new tab in our fav browser, type the <HOST-IP> and follow these instructions:
+  - select a language and click on continue
+  - type *ampache* in MySQL admin and password
+  - take the tick out from *create a database* as we already have one in docker image
+  - *insert database* and Enjoy. :)
