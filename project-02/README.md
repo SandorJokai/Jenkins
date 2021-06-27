@@ -2,6 +2,8 @@
 ![npm package](https://img.shields.io/badge/docker-19.03.8-blue.svg)
 ![npm package](https://img.shields.io/badge/ampache-4.1.1-yellow.svg)
 ![npm package](https://img.shields.io/badge/github-1.8.3.1-orange.svg)
+![npm package](https://img.shields.io/badge/apache-2.4.38-purple.svg)
+![npm package](https://img.shields.io/badge/mariadb-10.3.29-yellow.svg)
 
 <h1>Introduction</h1>
 
@@ -37,3 +39,10 @@ Let's open a new tab in our fav browser, type the <HOST-IP> and follow these ins
   - click on *insert database* at bottom
   - Leave everything blank and click continue
   - finally create an admin account for using ampache and Enjoy. :)
+  
+![npm package](https://img.shields.io/badge/jenkins-2.299-red.svg)
+![npm package](https://img.shields.io/badge/docker-19.03.8-blue.svg)
+![npm package](https://img.shields.io/badge/ampache-4.1.1-yellow.svg)
+![npm package](https://img.shields.io/badge/github-1.8.3.1-orange.svg)
+![npm package](https://img.shields.io/badge/apache-2.4.38-purple.svg)
+![npm package](https://img.shields.io/badge/mariadb-10.3.29-yellow.svg)
