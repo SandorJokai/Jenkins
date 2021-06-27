@@ -11,4 +11,13 @@ In this project we can build my favourite "online" music streamer, the Ampache f
 <h1>Prerequisities</h1>
 
 We only need to have is a [Jenkinsfile](https://github.com/SandorJokai/Jenkins/tree/master/project-02/Jenkinsfile). No, seriously. But of course, there are some more requirements. However those "more" will be added through the Jenkinsfile.
-So, I have another [Github repository](https://github.com/SandorJokai/docker/tree/master/ampache-streamer) where the Jenkinsfile will be working with. 
+So, I have another [Github repository](https://github.com/SandorJokai/docker/tree/master/ampache-streamer) where the Jenkinsfile will be working with.
+And every files will be downloaded from that repo.
+
+<h3>More requisites...</h3>
+
+- docker engine must be installed
+- create a git clone of this repository
+- build an image from [Dockerfile](../master/Dockerfile)
+- launch a Jenkins container
+
