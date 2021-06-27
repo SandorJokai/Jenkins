@@ -18,6 +18,6 @@ And every files will be downloaded from that repo.
 
 - docker engine must be installed
 - create a git clone of this repository
-- build an image from [Dockerfile](../master/Dockerfile)
+- build an image from [Dockerfile](../Dockerfile)
 - launch a Jenkins container
 
