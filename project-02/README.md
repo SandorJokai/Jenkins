@@ -8,7 +8,7 @@
 <h1>Introduction</h1>
 
 This is my 2nd project working with Jenkins. This one looks like a little more complex compared to the previous one, but still not follows the entire approach of Jenkins.
-In this project we can build my favourite "online" music streamer, the Ampache from a Jenkinsfile.
+In this project we can build my favourite "online" music streamer, [the Ampache](https://ampache.org/) from a Jenkinsfile.
 
 <h1>Prerequisities</h1>
 
