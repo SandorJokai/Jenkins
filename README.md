@@ -2,6 +2,8 @@
 ![npm package](https://img.shields.io/badge/docker-19.03.8-blue.svg)
 ![npm package](https://img.shields.io/badge/github-1.8.3.1-orange.svg)
 
+(*note: There are several files called: Jenkinsfile-* resides here. The reason why is because Github can not to be cloned from directories inside a repo, rather the entire repository (included all the sub directories) will be cloned. I make more sub-directories to make my job easier, but every particular Jenkinsfile-* must be exists here as well.)
+
 <h1>What is Jenkins?</h1>
 
 Jenkins is an open source automation server which can be used to automate all sorts of tasks related to building, testing, and delivering
