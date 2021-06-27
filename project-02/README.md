@@ -34,4 +34,6 @@ Let's open a new tab in our fav browser, type the <HOST-IP> and follow these ins
   - select a language and click on continue
   - type *ampache* in MySQL admin and password
   - take the tick out from *create a database* as we already have one in docker image
-  - *insert database* and Enjoy. :)
+  - click on *insert database* at bottom
+  - Leave everything blank and click continue
+  - finally create an admin account for using ampache and Enjoy. :)
