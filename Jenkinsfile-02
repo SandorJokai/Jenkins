@@ -1,0 +1,34 @@
+def dockerfileHome = "/var/jenkins_home/workspace/docker-ampache/ampache-streamer/"
+
+pipeline {
+    agent any
+
+    stages {
+        stage('SCM') {
+            steps {
+                git 'https://github.com/SandorJokai/docker'
+            }
+        }
+        
+        stage('build docker-ampache image') {
+            agent {
+                docker { image 'jenkins/jenkins' }
+            }
+            steps {
+                sh "docker build -t docker-ampache:1.0 ${dockerfileHome}"
+            }
+        }
+        
+        stage('run APP container') {
+            agent {
+                docker { image 'docker-ampache:1.0' }
+                
+                }
+                
+            steps {
+                sh '''docker run -d --name ampache -p 80:80 --hostname=ampache \
+                -v ampache:/var/www/ampache/my-albums docker-ampache:1.0'''
+            }
+        }
+    }
+}
