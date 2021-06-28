@@ -13,7 +13,7 @@ In this project, there's a combination of my favourite DevOps tools: AWS, Ansibl
 Once we launched the instances (*The base images are the default Amazon linux2 in my case*), let's login to one of it. From now, let's call it *Jenkins-srv*. Install the followings:
 
 - jenkins
-<h6>note: We need to have a repository from ansible. We can have if by following these commands:</h6> 
+<h6>note: We need to have a repository for managing Ansible. We can have if by following these commands:</h6> 
 
 ```bash
 wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
