@@ -14,12 +14,15 @@ Once we launched the instances (*The base images are the default Amazon linux2 i
 
 - jenkins
 <h6>note: We need to have a repository from ansible. We can have if by following these commands:</h6> 
+
 ```bash
 wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 ```
+
 ```bash
 sudo yum --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 ```
+
 ```bash
 sudo yum upgrade
 ```
