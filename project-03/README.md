@@ -18,7 +18,10 @@ In this project, there's a combination of my favourite DevOps tools: AWS, Ansibl
 
 Once we launched the instances (*The base images are the default Amazon linux2 in my case*), let's login to one of it. From now, let's call it *Jenkins-srv*. Install the followings:
 
+- ansible
+- git
 - jenkins
+
 <h6>note: If we use a Redhat based Linux OS, we need to add the Ansible repository. In order to get that just following these commands:</h6> 
 
 ```bash
@@ -38,9 +41,6 @@ sudo dnf install chkconfig java-devel
 ```bash
 sudo dnf install jenkins
 ```
-
-- ansible
-- git
 
 <h2>Create a Jenkins pipeline</h2>
 
