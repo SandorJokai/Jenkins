@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage ('SCM') {
+            steps {
+                git 'https://github.com/SandorJokai/Jenkins'
+            }
+        }
+        stage ('Build') {
+            steps {
+                ansiblePlaybook credentialsId: 'ansible', disableHostKeyChecking: true, installation: 'ansible', inventory: 'project-03/dev.inv', playbook: 'project-03/apache.yml'
+            }
+        }
+    }
+}
