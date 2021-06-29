@@ -19,7 +19,7 @@ In this project, there's a combination of my favourite DevOps tools: AWS, Ansibl
 Once we launched the instances (*The base images are the default Amazon linux2 in my case*), let's login to one of it. From now, let's call it *Jenkins-srv*. Install the followings:
 
 - jenkins
-<h6>note: We need to have a repository for managing Ansible. We can have if by following these commands:</h6> 
+<h6>note: If we use an Linux OS other than Amazon linux2, we need to add the Ansible repository. In order to get that just following these commands:</h6> 
 
 ```bash
 wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
@@ -40,3 +40,11 @@ sudo dnf install jenkins
 ```
 
 - ansible
+- git
+
+<h2>Create a Jenkins pipeline</h2>
+
+Let the rest of the job be done by Jenkins. We need ansible plugin previously installed. Once we done that, go to the bottom where the *pipeline script* exist.
+Click on *Pipeline script from SCM* and add [Jenkinsfile](https://github.com/SandorJokai/Jenkins/tree/master/project-03/Jenkinsfile).
+
+Make sure there private IP of managed Node must be changed as well as the .pem file.
