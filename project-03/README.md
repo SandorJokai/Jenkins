@@ -44,7 +44,7 @@ sudo dnf install jenkins
 
 <h2>Create a Jenkins pipeline</h2>
 
-Let the rest of the job be done by Jenkins. We need ansible plugin previously installed. Once we done that, go to the bottom where the *pipeline script* exist.
+Let the rest of job be done by Jenkins. We need ansible plugin previously installed. Once we done that, go to the bottom where the *pipeline script* exist.
 Click on *Pipeline script from SCM* and add [Jenkinsfile](https://github.com/SandorJokai/Jenkins/tree/master/project-03/Jenkinsfile).
 
 Make sure there private IP of managed Node must be changed as well as the .pem file.
