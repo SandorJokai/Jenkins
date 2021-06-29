@@ -45,9 +45,11 @@ sudo dnf install jenkins
 <h2>Create a Jenkins pipeline</h2>
 
 Let the rest of job be done by Jenkins. We need ansible plugin previously installed. Once we done that, go to the bottom where the *pipeline script* exist.
-Click on *Pipeline script from SCM* and add [Jenkinsfile](https://github.com/SandorJokai/Jenkins/tree/master/project-03/Jenkinsfile).
+Click on *Pipeline script from SCM* and add [Jenkinsfile](https://github.com/SandorJokai/Jenkins/tree/master/project-03/Jenkinsfile). Add the git and create an  ssh credential. Make sure the name of ssh credentials must be called *ansible* according to Jenkinsfile settings otherwise it won't work!
 
-Make sure there private IP of managed Node must be changed in [dev.inv](https://github.com/SandorJokai/Jenkins/blob/master/project-03/dev.inv) as well as the .pem file to connect to AWS EC2 servers.
+Make sure there private IP of managed Node must be changed in [dev.inv](https://github.com/SandorJokai/Jenkins/blob/master/project-03/dev.inv).
+
+After these settings theere must be an installed webserver which we can check by opening a web browser and typing the Managed node IP's.
 
 ![npm package](https://img.shields.io/badge/ansible-2.9.20-black.svg)
 ![npm package](https://img.shields.io/badge/python-2.7.18-turquoise.svg)
