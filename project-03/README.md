@@ -1,3 +1,9 @@
+![npm package](https://img.shields.io/badge/ansible-2.9.20-black.svg)
+![npm package](https://img.shields.io/badge/python-2.7.18-turquoise.svg)
+![npm package](https://img.shields.io/badge/git-2.23.4-red.svg)
+![npm package](https://img.shields.io/badge/git-2.289.1-cyclamen.svg)
+![npm package](https://img.shields.io/badge/amazon-aws-yellow.svg)
+
 <h1>Ansible integrate with Jenkins</h1>
 
 In this project, there's a combination of my favourite DevOps tools: AWS, Ansible and Jenkins. The basic concept is launching two EC2 instances in AWS and making one for Ansible-control and the other one for the managed node. In the end there will be a web server installed. The whole process will be delivered by Jenkins after installing some base dependencies and services.
