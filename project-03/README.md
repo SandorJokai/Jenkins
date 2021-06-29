@@ -22,7 +22,7 @@ Once we launched the instances (*The base images are the default Amazon linux2 i
 - git
 - jenkins
 
-<h6>note: If we use a Redhat based Linux OS, we need to add the Ansible repository. In order to get that just following these commands:</h6> 
+<h6>note: If we use a Redhat based Linux OS, we need to add the Jenkins repository. In order to get that just following these commands:</h6> 
 
 ```bash
 wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
