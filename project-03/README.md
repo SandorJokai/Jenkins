@@ -48,3 +48,9 @@ Let the rest of the job be done by Jenkins. We need ansible plugin previously in
 Click on *Pipeline script from SCM* and add [Jenkinsfile](https://github.com/SandorJokai/Jenkins/tree/master/project-03/Jenkinsfile).
 
 Make sure there private IP of managed Node must be changed as well as the .pem file.
+
+![npm package](https://img.shields.io/badge/ansible-2.9.20-black.svg)
+![npm package](https://img.shields.io/badge/python-2.7.18-turquoise.svg)
+![npm package](https://img.shields.io/badge/git-2.23.4-red.svg)
+![npm package](https://img.shields.io/badge/jenkins-2.289.1-purple.svg)
+![npm package](https://img.shields.io/badge/amazon-aws-yellow.svg)
