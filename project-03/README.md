@@ -1,7 +1,7 @@
 ![npm package](https://img.shields.io/badge/ansible-2.9.20-black.svg)
 ![npm package](https://img.shields.io/badge/python-2.7.18-turquoise.svg)
 ![npm package](https://img.shields.io/badge/git-2.23.4-red.svg)
-![npm package](https://img.shields.io/badge/git-2.289.1-cyclamen.svg)
+![npm package](https://img.shields.io/badge/jenkins-2.289.1-rose.svg)
 ![npm package](https://img.shields.io/badge/amazon-aws-yellow.svg)
 
 <h1>Ansible integrate with Jenkins</h1>
